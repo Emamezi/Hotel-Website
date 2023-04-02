@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+ <title>Contact</title>
+</head>
+<body>
+  <header>
+    <nav id="nav-bar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">HBT</a> </h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="current"  href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="contact-form">
+    <div class="container">
+      <h1 class="l-heading py-3">
+       <span class="primary-text"> Contact</span> Us
+      </h1>
+      <p>Please Fill Out the Form Below to Contact Us</p>
+    </div>
+    <form action="process.php">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea type="text" name="message" id="message"></textarea>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </section>
+  <section id="contact-info" class="bg-dark">
+     <div class="container">
+      <div class="feature-box">
+        <i class="fa-solid fa-hotel fa-3x"></i>
+        <h5>Location</h5>
+        <p>50 Mian Street Boston MA</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa-solid fa-phone fa-3x"></i>
+        <h5>Free Meals</h5>
+        <p>+16134563789</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa-solid fa-envelope fa-3x"></i>
+        <h5>Email Address</h5>
+        <p>HBTfrontdesk@bt.com</p>
+      </div>
+     </div>
+  </section>
+  <footer id="main-footer" class="clr">
+    <p>Hotel BT &copy; 2023, All Rights Reserved</p>
+  </footer>
+</body>
+</html>
